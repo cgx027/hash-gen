@@ -1,0 +1,27 @@
+{
+  "name": "hash-gen",
+  "version": "1.0.0",
+  "description": "Tool to generate password hash for RackHD on-http project",
+  "main": "hash-gen.js",
+  "scripts": {
+    "test": "mocha $(find spec -name '*-spec.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgx027/hash-gen.git"
+  },
+  "keywords": [
+    "password",
+    "hash"
+  ],
+  "author": "cgx027",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cgx027/hash-gen/issues"
+  },
+  "homepage": "https://github.com/cgx027/hash-gen",
+  "dependencies": {
+    "bluebird": "^2.8.0"
+  },
+  "devDependencies": {}
+}
