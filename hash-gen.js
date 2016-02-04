@@ -31,7 +31,6 @@ var calcPasswordHash = function (password, salt, iteration, bytes, callback) {
 
 var getSalt = function (){
     return new Promise(function(resolve, reject){
-        debugger;
 
         if(generateRandomSalt){
             crypto.randomBytes(hashConfig.saltBytes, function(err, randomSalt){
